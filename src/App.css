@@ -1,0 +1,95 @@
+.body {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: 28px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.control {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.control button {
+  font-size: 18px;
+  padding: 15px 25px;
+  border-radius: 7px;
+}
+
+/* tTemas */
+
+.Black.App-header {
+  background: #000000;
+  color: #fff;
+}
+
+button.Black {
+  background: #000000;
+  color: #fff;
+}
+button.Black:hover {
+  background: #fff;
+  color: #000000;
+  border: solid 1px #000000;
+}
+
+.Blue.App-header {
+  background: rgb(9, 6, 156);
+  color: #fff;
+}
+
+button.Blue {
+  background: rgb(9, 6, 156);
+  color: #fff;
+}
+button.Blue:hover {
+  background: #fff;
+  color: rgb(9, 6, 156);
+  border: solid 1px rgb(9, 6, 156);
+}
+
+/* Verde */
+.Green.App-header {
+  background: rgb(8, 105, 21);
+  color: #fff;
+}
+
+button.Green {
+  background: rgb(8, 105, 21);
+  color: #fff;
+}
+button.Green:hover {
+  background: #fff;
+  color: rgb(8, 105, 21);
+  border: solid 1px rgb(8, 105, 21);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
